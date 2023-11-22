@@ -13,6 +13,14 @@
 		55F31C1D2B0A2E6E0017FAB9 /* Bundle__Sandbox__FileManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55F31C1B2B0A2E6E0017FAB9 /* Bundle__Sandbox__FileManager.xcdatamodeld */; };
 		55F31C1F2B0A2E6F0017FAB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F31C1E2B0A2E6F0017FAB9 /* Assets.xcassets */; };
 		55F31C222B0A2E6F0017FAB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F31C202B0A2E6F0017FAB9 /* LaunchScreen.storyboard */; };
+		55F31C2A2B0D0B2F0017FAB9 /* ViewAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F31C292B0D0B2F0017FAB9 /* ViewAuth.swift */; };
+		55F31C2D2B0D0F420017FAB9 /* PasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F31C2C2B0D0F420017FAB9 /* PasswordModel.swift */; };
+		55F31C2F2B0D0FAB0017FAB9 /* AuthContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F31C2E2B0D0FAB0017FAB9 /* AuthContoller.swift */; };
+		55F31C332B0D10DB0017FAB9 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 55F31C322B0D10DB0017FAB9 /* KeychainAccess */; };
+		55F31C352B0D17920017FAB9 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F31C342B0D17910017FAB9 /* TabBarViewController.swift */; };
+		55F31C372B0D187D0017FAB9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F31C362B0D187D0017FAB9 /* SettingsViewController.swift */; };
+		55F31C392B0D18E00017FAB9 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F31C382B0D18E00017FAB9 /* ChangePasswordViewController.swift */; };
+		55F31C3B2B0D2D900017FAB9 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F31C3A2B0D2D900017FAB9 /* AuthCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,13 @@
 		55F31C1E2B0A2E6F0017FAB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55F31C212B0A2E6F0017FAB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55F31C232B0A2E6F0017FAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F31C292B0D0B2F0017FAB9 /* ViewAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAuth.swift; sourceTree = "<group>"; };
+		55F31C2C2B0D0F420017FAB9 /* PasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordModel.swift; sourceTree = "<group>"; };
+		55F31C2E2B0D0FAB0017FAB9 /* AuthContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContoller.swift; sourceTree = "<group>"; };
+		55F31C342B0D17910017FAB9 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		55F31C362B0D187D0017FAB9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		55F31C382B0D18E00017FAB9 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		55F31C3A2B0D2D900017FAB9 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F31C332B0D10DB0017FAB9 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,13 @@
 				55F31C122B0A2E6E0017FAB9 /* AppDelegate.swift */,
 				55F31C142B0A2E6E0017FAB9 /* SceneDelegate.swift */,
 				55F31C162B0A2E6E0017FAB9 /* ViewController.swift */,
+				55F31C292B0D0B2F0017FAB9 /* ViewAuth.swift */,
+				55F31C2C2B0D0F420017FAB9 /* PasswordModel.swift */,
+				55F31C2E2B0D0FAB0017FAB9 /* AuthContoller.swift */,
+				55F31C342B0D17910017FAB9 /* TabBarViewController.swift */,
+				55F31C362B0D187D0017FAB9 /* SettingsViewController.swift */,
+				55F31C382B0D18E00017FAB9 /* ChangePasswordViewController.swift */,
+				55F31C3A2B0D2D900017FAB9 /* AuthCoordinator.swift */,
 				55F31C1E2B0A2E6F0017FAB9 /* Assets.xcassets */,
 				55F31C202B0A2E6F0017FAB9 /* LaunchScreen.storyboard */,
 				55F31C232B0A2E6F0017FAB9 /* Info.plist */,
@@ -83,6 +106,9 @@
 			dependencies = (
 			);
 			name = "Bundle. Sandbox. FileManager";
+			packageProductDependencies = (
+				55F31C322B0D10DB0017FAB9 /* KeychainAccess */,
+			);
 			productName = "Bundle. Sandbox. FileManager";
 			productReference = 55F31C0F2B0A2E6E0017FAB9 /* Bundle. Sandbox. FileManager.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 55F31C062B0A2E6E0017FAB9;
+			packageReferences = (
+				55F31C312B0D10DB0017FAB9 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 55F31C102B0A2E6E0017FAB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,10 +166,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F31C352B0D17920017FAB9 /* TabBarViewController.swift in Sources */,
+				55F31C2D2B0D0F420017FAB9 /* PasswordModel.swift in Sources */,
 				55F31C172B0A2E6E0017FAB9 /* ViewController.swift in Sources */,
+				55F31C392B0D18E00017FAB9 /* ChangePasswordViewController.swift in Sources */,
+				55F31C2A2B0D0B2F0017FAB9 /* ViewAuth.swift in Sources */,
 				55F31C1D2B0A2E6E0017FAB9 /* Bundle__Sandbox__FileManager.xcdatamodeld in Sources */,
+				55F31C3B2B0D2D900017FAB9 /* AuthCoordinator.swift in Sources */,
 				55F31C132B0A2E6E0017FAB9 /* AppDelegate.swift in Sources */,
+				55F31C2F2B0D0FAB0017FAB9 /* AuthContoller.swift in Sources */,
 				55F31C152B0A2E6E0017FAB9 /* SceneDelegate.swift in Sources */,
+				55F31C372B0D187D0017FAB9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +389,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55F31C312B0D10DB0017FAB9 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55F31C322B0D10DB0017FAB9 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55F31C312B0D10DB0017FAB9 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		55F31C1B2B0A2E6E0017FAB9 /* Bundle__Sandbox__FileManager.xcdatamodeld */ = {

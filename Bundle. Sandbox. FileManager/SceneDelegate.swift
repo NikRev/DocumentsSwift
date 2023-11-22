@@ -13,22 +13,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-           guard let windowScene = (scene as? UIWindowScene) else { return }
-           
-           // Создаем UIWindow и привязываем его к UIWindowScene
-           let window = UIWindow(windowScene: windowScene)
-           
-           // Создаем ViewController и навигационный контроллер
-           let viewController = ViewController()
-           let navigationController = UINavigationController(rootViewController: viewController)
-           
-           // Устанавливаем navigationController как rootViewController
-           window.rootViewController = navigationController
-           
-           // Устанавливаем окно приложения
-           self.window = window
-           window.makeKeyAndVisible()
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+
+        // Создаем UIWindow и привязываем его к UIWindowScene
+        let window = UIWindow(windowScene: windowScene)
+
+      
+
+        
+        // Создаем координатор
+        let authCoordinator = AuthCoordinator()
+        authCoordinator.start()
+
+        // Устанавливаем окно приложения
+        self.window = window
+        window.rootViewController = authCoordinator.navigationController
+        window.makeKeyAndVisible()
     }
+
+
     
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
